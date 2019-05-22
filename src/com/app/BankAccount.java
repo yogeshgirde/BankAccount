@@ -9,6 +9,7 @@ public class BankAccount {
 	private String phoneNumber;
 
 	public BankAccount() {
+		this("default",0.00,"default","Default","default");
 		System.out.println("Empty constructor is called");
 	}
 	public BankAccount(String accountNumber,double balance,String customerName,String email,String phoneNumber) {
